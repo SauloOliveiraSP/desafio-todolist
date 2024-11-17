@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import br.com.saulooliveira.desafiotodolist.controller.Todo;
+import br.com.saulooliveira.desafiotodolist.entity.Todo;
 import br.com.saulooliveira.desafiotodolist.repository.TodoRepository;
 
 @Service    

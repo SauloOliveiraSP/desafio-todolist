@@ -1,4 +1,4 @@
-package br.com.saulooliveira.desafiotodolist.controller;
+package br.com.saulooliveira.desafiotodolist.entity;
 
 import org.springframework.data.annotation.Id;
 
