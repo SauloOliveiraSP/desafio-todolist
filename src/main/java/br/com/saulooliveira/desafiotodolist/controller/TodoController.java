@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.saulooliveira.desafiotodolist.entity.Todo;
 import br.com.saulooliveira.desafiotodolist.service.TodoService;
 
-
 @RestController
-@RequestMapping("/todos")
+@RequestMapping("/todo")
 public class TodoController {
+    
     private TodoService todoService;
 
     public TodoController(TodoService todoService) {
